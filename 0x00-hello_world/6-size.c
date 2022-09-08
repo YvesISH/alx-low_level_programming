@@ -1,10 +1,14 @@
+/*
+ * File: 6-size.c
+ * Auth: Brennan D Baraban
+ */
 #include <stdio.h>
 
 /**
- *  * main - Entry point
- *   *
- *    * Return: Always 0 (Success)
- *     */
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 		int a;
