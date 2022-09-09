@@ -5,7 +5,7 @@ int main(void)
 
 	for (digit1 = 0; digit1 < 9; digit1++)
 	{
-		for dig = digit1 + 1; dig < 10; dig++)
+		for (dig = digit1 + 1; dig < 10; dig++)
 		{
 			putchar((digit1 % 10) + '0');
 			putchar((dig % 10) + 0);
