@@ -2,15 +2,15 @@
 #include <stdio.h>
 /** 
  * _abs -it computes the absolute value
- * @n: integer input
+ * @c: integer input
  * Return: absolute value
  */
 int _abs(int c)
 {
 	if (c > 0 || c == 0)
 	{
-		return(c);
+	return (c);
 	}
 	else
-		return (c * -1);
+	return (c * -1);
 }
