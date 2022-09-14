@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
  * add -a functon that adds two integers and returns the results
  *@one: the first int to be added.
