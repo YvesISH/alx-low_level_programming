@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-/** main -m  lists all the naturalnumbers below 1024
+/** 
+ * main -m  lists all the naturalnumbers below 1024
  *
  * Return: Always 0.
  */
@@ -11,7 +12,7 @@ int main(void)
 
 	for (i = 0; i < 1024; i++)
 	{
-		if ((i %3) == 0 || (i % 5) ==0)
+		if ((i % 3) == 0 || (i % 5) == 0)
 			sum += i;
 	}
 
