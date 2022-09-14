@@ -3,8 +3,10 @@
 
 /**
  * add -a functon that adds two integers and returns the results
- *
- * Return : one+ two
+ *@one: the first int to be added.
+ *@two: the second integer to be added
+ * 
+ * Return: The result of the addition.
  */
 int add(int one, int two)
 {
