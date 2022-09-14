@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_Sign
- * @: number input
- * Return 1, 0 , -1
+ * print_Sign - print number greater, less or equal to zero
+ * @n: number input
+ * Return 0.
  */
 
 int print_sign(int n)
