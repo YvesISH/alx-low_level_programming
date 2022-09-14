@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-
 /** 
  * _abs -it computes the absolute value
  * @n: integer input
