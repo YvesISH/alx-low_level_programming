@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * _isupper - checks if a character is uppercase or not
- * @c: character to be tested
- * Return: 1 whether it is, 0 otherwise
+ * _isuper - is a functionto check code for uppercase
+ * @: charcter to be checked.
+ * Return: 1 for upercase, otherwise 0.
  */
 
-int _isupper(int c)
+int _isupper(int x)
 {
-	if ( c >= 65 && c <= 90)
+	if (x >= 65 && x <= 90)
 	{
 		return (1);
 	}
