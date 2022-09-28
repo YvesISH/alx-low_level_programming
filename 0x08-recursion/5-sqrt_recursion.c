@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  *power_operation - function that returns square
- @n: number
- @c: iterator
+ * @n: number
+ * @c: iterator
  *Return: square root ot -1
  */
 int power_operation(int n, int c)
