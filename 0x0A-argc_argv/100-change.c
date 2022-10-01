@@ -1,21 +1,23 @@
-#include <stdlio.h>
+#include <stdio.h>
 #include <stdlib.h>
-
 /**
- * main - program that print the minimum number
- * @argc: number of command line arguments
- * @argv: array that contain the program
- * Return: always 0
+ *  * main - program that prints the minimum number,
+ *   * of coins to make change for an amount of money.
+ *    * @argc: number of command line arguments.
+ *     * @argv: array that contains the program command line arguments.
+ *      * Return: Always 0 .
  */
-int main(iint argc, char *argv[0])
+
+int main(int argc, char *argv[])
 {
 	int cents, ncoins = 0;
 
 	if (argc == 1 || argc > 2)
 	{
-		printf("Error\n")
-			return (1);
+		printf("Error\n");
+		return (1);
 	}
+
 	cents = atoi(argv[1]);
 
 	while (cents > 0)
